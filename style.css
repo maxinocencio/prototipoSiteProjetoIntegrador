@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pagina1
+{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    padding: 100px, 100px 0;
+    background: #5DB1E5;
+    /*background: #38B6FF;*/
+}
+
+.content1
+{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.content1 .texts{
+    text-align: center;
+    margin-top: 75px;
+}
+
+.content1 .title
+{
+    color: white;
+    font-size: 3em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.content1 .slogan
+{
+    color: white;
+    font-size: 2em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.content1 .slogan span
+{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.content1 .img1
+{
+    width: 100%;
+    height: auto;
+    margin-top: 2.8%;
+    display: grid;
+    justify-content: center;
+    
+}
+
+/*----parte rosa----*/
+
+.pagina2
+{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    padding: 100px, 100px 0;
+    background: #CF7DC5;
+}
+
+/*----celular----*/
+
+.text1
+{
+    margin-top: 140px;
+    margin-left: 150px;
+    margin-right: 375px;
+    display: flex;
+}
+.text1 .smartphone
+{
+    float: left;
+    width: 250px;
+}
+
+.text1 .texts .info h1
+{
+    margin-left: 50px;
+    font-size: 40px;
+    color: white;
+}
+
+
+.text1 .texts .info h4
+{
+    color: white;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+/*----criança----*/
+
+.text2
+{
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 375px;
+    display: flex;
+}
+
+.text2 .kid
+{
+    float: left;
+    width: 200px;
+}
+
+.text2 .texts2 .info h1
+{
+    margin-left: 100px;
+    font-size: 40px;
+    color: white;
+}
+
+
+.text2 .texts2 .info h4
+{
+    color: white;
+    margin-left: 100px;
+    font-size: 18px;
+}
